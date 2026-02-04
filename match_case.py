@@ -1,6 +1,6 @@
 # Calculadora simples
 # String = "texto"
-#  int = 10, 20
+# int = 10, 20
 # float 12.12, 13.13
 # boolean = true or false
 
