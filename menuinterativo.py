@@ -1,11 +1,15 @@
-print("Menu de atendimento do Senac")
+print('''   
 
-print("Escolha uma das opções abaixo:")
-print("[1] Falar com atendente")
-print("[2] Segunda via de boleto")
-print("[3] Cancelar serviço")
-print("[4] Informações sobre planos")
-print("[5] Sair")
+Menu de atendimento do Senac      
+
+[1] Falar com atendente
+[2] Segunda via de boleto
+[3] Cancelar serviço
+[4] Informações sobre planos
+[5] Sair
+
+'''
+)
 
 opcao_que_deseja = input("Digite a opção desejada: ")
 
