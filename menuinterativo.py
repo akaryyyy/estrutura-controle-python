@@ -7,9 +7,9 @@ print("[3] Cancelar serviço")
 print("[4] Informações sobre planos")
 print("[5] Sair")
 
-opcaoquedeseja = input("Digite a opção desejada: ")
+opcao_que_deseja = input("Digite a opção desejada: ")
 
-match opcaoquedeseja:
+match opcao_que_deseja:
     case "1" | "Falar com atendente":
         print("Você está em contato com o atendente")
 
