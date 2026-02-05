@@ -1,3 +1,5 @@
+print("\nBem vindo ao jogo super hiper mega legal\n")
+
 # 1. Definir XP e nome para o jogador
 xp = int(input(" ⭐ Quantos pontos de expêriencia (XP) você tem? ⭐\n"
                "Digite aqui: "))
@@ -27,10 +29,10 @@ acao = input(
 # 4. Resultado das ações
 match acao:
     case "A":
-        print("Você avançou para o ataque! 🤺")
+        print(f"{nome_personagem} avançou para o ataque! 🤺")
     case "D":
-        print("Você levantou o escudo! 🛡️")
+        print(f"{nome_personagem} levantou o escudo! 🛡️")
     case "F":
-        print("Você fugiu da batalha, seu cagão! 🏃‍♂️‍➡️")
+        print(f"{nome_personagem} fugiu da batalha, seu cagão! 🏃‍♂️‍➡️")
     case _:
         print("Digite uma opção válida.")            
