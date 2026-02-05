@@ -1,4 +1,4 @@
-# 1. Pedir XP ao jogador
+# 1. Definir XP e nome para o jogador
 xp = int(input(" ⭐ Quantos pontos de expêriencia (XP) você tem? ⭐\n"
                "Digite aqui: "))
 
